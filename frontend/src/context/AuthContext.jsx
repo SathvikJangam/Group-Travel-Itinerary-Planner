@@ -3,8 +3,8 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-// Set axios baseURL to use relative path (Vite proxy will handle it in dev)
-axios.defaults.baseURL = '/api';
+// Set axios baseURL to use env variable or fallback to relative path (Vite proxy)
+axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 export const useAuth = () => useContext(AuthContext);
 

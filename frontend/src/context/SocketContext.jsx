@@ -14,9 +14,8 @@ export const SocketProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    // Connect to your Node.js backend
-    // IMPORTANT: Make sure this matches your backend port (usually 5000)
-    const newSocket = io('http://localhost:5000', {
+    // Connect to your Node.js backend using env variable, fallback to localhost for dev
+    const newSocket = io(import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000', {
       transports: ['polling', 'websocket'],
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,
