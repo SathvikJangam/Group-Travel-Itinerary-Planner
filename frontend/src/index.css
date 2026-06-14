@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-apple-black text-apple-lightText font-sans antialiased;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-apple-black;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-apple-surfaceHover rounded-full;
+  }
+}

@@ -1,0 +1,32 @@
+hey Google, i am given a task to develop a web application on my MERN Stack course. The task is about "Group travel Itinerary Planner". Guide me in doing this project, about the schemas, ERs, Folder / File structure & other stuff that is related to develop a web application. Give me some good ideas to develop a good project which should NOT be SIMPLE, and also it should have unique features. Ill tell what's in my mind, and you think and make some changes if required. I want to show my full creativity and i need your help to boost my project. 
+
+Remember that my topic is "Group Travel Itinerary travel"
+
+The traveller has to register by giving his details, and should login to proceed to booking the transport and tourist itinerary packages.
+
+firstly, it should open with a home page, and ask where the person is interested to travel. 
+->Country, State/City..
+Next, he should select no of days he want to spend. It would be better if he selects some particular sequence of days in the calendar that we can provide him to choose.
+he/she can explore the availability of trains / buses / flights - each in different menus.
+Then, the app should have all the data about the trains / buses / flights schedule to that location.. It should show the user what are the options to travel - Like showing trains/buses/flights from the station/ airport that is nearest to the source and destination both. it should not show that there is no station/airport in your source/destination.
+next, it should have the database access of the transportation to book the tickets directly from this app.
+
+next, it should contain good itinerary plans for each of the important destinations across the globe. The planning should be flexible according to the number of days. He can remove some spots and replace with other spots if he isn't interested with those spots in that tourist area. 
+also, the packages should be like covering multiple cities in a specific amount of days. and it should be flexible.
+
+It should show good hotels, and should allow hotel bookings from that app. Once a hotel is booked, it should have an option to order food from that hotel if there is any restaurant in that hotel, of not, he should have an option to order food from nearby restaurants.
+
+it should give a rough amount of the budget according to his preferences like no of days, type of transport and hotel selection, etc.
+
+he can select No of persons travelling in total along with him, and should link /  collab with these people in this app.
+There should be an option to share the expenses made by any person, and should share between some specific persons / or all, according to the situation there (flexibility here too) xD.
+
+The customer should have these above features. 
+
+now, the hotel owners, and the tourism operators / agencies will have another login , and they'll have diff set of features, like allocating a vehicle for them in some days, allocating a driver / guide to guide them in the tourist places, and others. prefer like the tourist agencies will have connections with the hotel owners (like a syndicate, which is common in India). 
+
+Lastly, one admin with his team will be monitoring all the activities and will receive ratings and complaints if anybody reports on a hotel or a travel agency or on a guide, they should take necessary action by collaborating with the police / cops. the admin should ensure the safety of the customers. And the team will update the app if they wanted to give more updates and features.
+
+and if i get any ideas in the future, I'll tell you, now, verify these and give any add-ons if you have anything in your brain / database.
+
+Remember that my topic is "Group Travel Itinerary travel", and if I'm deviating from the core topic, just remind me. ill look after this, and will add some extra features which i desire to add in this web application.
